@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/P0101_listener" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/mvideo" />
+            <option value="$PROJECT_DIR$/p0061_layouts" />
+            <option value="$PROJECT_DIR$/p0061_linearlayour" />
+            <option value="$PROJECT_DIR$/p0072_layouttema" />
+            <option value="$PROJECT_DIR$/p0081_viewbyld" />
+            <option value="$PROJECT_DIR$/p0211_twoactivity" />
+            <option value="$PROJECT_DIR$/p0241_twoactivitystate" />
+            <option value="$PROJECT_DIR$/p0261_intentfilter" />
+            <option value="$PROJECT_DIR$/p0271_getintentaction" />
+            <option value="$PROJECT_DIR$/p0281_intentextras" />
+            <option value="$PROJECT_DIR$/p0291_simpleactivityresult" />
+            <option value="$PROJECT_DIR$/p0301_activityresult" />
+            <option value="$PROJECT_DIR$/p0311_simpleintents" />
+            <option value="$PROJECT_DIR$/p0321_simplebrowser" />
+            <option value="$PROJECT_DIR$/p0331_sharedpreferences" />
+            <option value="$PROJECT_DIR$/p0341_simplesqlite" />
+            <option value="$PROJECT_DIR$/p0361_sqlitequery" />
+            <option value="$PROJECT_DIR$/p0371_sqliteinnerjoin" />
+            <option value="$PROJECT_DIR$/p0381_sqlitetransaction" />
+            <option value="$PROJECT_DIR$/p_372_sqliteinnerjoinn" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
