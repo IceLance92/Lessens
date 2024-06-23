@@ -1,5 +1,2 @@
-# Android_Lessens
-# Android_Lessens
-# Android_Lessens
-# Android_lessens
-# Lessens
+# Проект подразумевает обучающие материалы и тестовые модули, на проверку и закрепление знаний в программировании #
+
