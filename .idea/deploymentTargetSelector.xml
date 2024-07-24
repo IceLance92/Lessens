@@ -68,6 +68,9 @@
       <SelectionState runConfigName="p0271_getintentaction">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="p0401_layoutinflater">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
