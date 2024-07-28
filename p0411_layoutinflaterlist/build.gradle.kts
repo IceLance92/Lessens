@@ -3,11 +3,19 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.practicum.p0411_layoutinflaterlist"
     compileSdk = 34
 
     defaultConfig {
         applicationId = "com.practicum.p0411_layoutinflaterlist"
+=======
+    namespace = "ru.startandroid.develop.p0411_layoutinflaterlist"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "ru.startandroid.develop.p0411_layoutinflaterlist"
+>>>>>>> 4bb4a6c (проверка совместимости с тем)
         minSdk = 24
         targetSdk = 34
         versionCode = 1
