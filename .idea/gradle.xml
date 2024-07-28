@@ -32,6 +32,7 @@
             <option value="$PROJECT_DIR$/p0381_sqlitetransaction" />
             <option value="$PROJECT_DIR$/p0401_layoutinflater" />
             <option value="$PROJECT_DIR$/p0411_layoutinflaterlist" />
+            <option value="$PROJECT_DIR$/p0421_simplelist" />
             <option value="$PROJECT_DIR$/p_372_sqliteinnerjoinn" />
           </set>
         </option>

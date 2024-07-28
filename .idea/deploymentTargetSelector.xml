@@ -74,6 +74,9 @@
       <SelectionState runConfigName="p0411_layoutinflaterlist">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="p0421_simplelist">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
