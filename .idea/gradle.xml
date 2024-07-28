@@ -35,6 +35,7 @@
             <option value="$PROJECT_DIR$/p0411_layoutinflaterlist" />
             <option value="$PROJECT_DIR$/p0421_simplelist" />
             <option value="$PROJECT_DIR$/p0431_simplelistchoice" />
+            <option value="$PROJECT_DIR$/p0441_simplelistevents" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

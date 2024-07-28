@@ -82,10 +82,21 @@
       </SelectionState>
       <SelectionState runConfigName="p0431_simplelistchoice">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-07-28T22:15:22.442953500Z">
+        <DropdownSelection timestamp="2024-07-28T22:18:56.298907800Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Александр\.android\avd\realme_GT_master_edition_API_34.avd" />
+              <DeviceId pluginId="PhysicalDevice" identifier="serial=fb5a3669" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="p0441_simplelistevents">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2024-07-28T22:54:58.273785100Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="PhysicalDevice" identifier="serial=fb5a3669" />
             </handle>
           </Target>
         </DropdownSelection>
