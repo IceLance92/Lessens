@@ -1,11 +1,14 @@
 package com.practicum.p0471_recycleview;
 
+import static android.app.ProgressDialog.show;
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -13,9 +16,11 @@ import androidx.recyclerview.widget.RecyclerView;
 public class NumbersAdapter extends RecyclerView.Adapter<NumbersAdapter.NumberViewHolder> {
     private static int viewHolderCount;
     private int numberItems;
-    public NumbersAdapter(int numberOfItems) {
+    private static Context parent;
+    public NumbersAdapter(int numberOfItems, Context parent) {
         numberItems = numberOfItems;
         viewHolderCount = 0;
+        this.parent = parent;
     }
     @SuppressLint("SetTextI18n")
     @NonNull
@@ -45,6 +50,15 @@ public class NumbersAdapter extends RecyclerView.Adapter<NumbersAdapter.NumberVi
             super(itemView);
             listItemNumberView = itemView.findViewById(R.id.tv_number_item);
             viewHolderIndex = itemView.findViewById(R.id.tv_view_holder_number);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // показывает Toast
+                    int postionIndex = getAdapterPosition();
+                    Toast toast = Toast.makeText(parent, "Element " + postionIndex + " was clicked!", Toast.LENGTH_SHORT);
+                    toast.show();
+                }
+            });
         }
         void bind(int listIndex) {
             listItemNumberView.setText(String.valueOf(listIndex));
