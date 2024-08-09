@@ -13,5 +13,5 @@
         android:gravity="center_horizontal"
         android:onClick="onclick"
         android:text="@string/helloSize"
-        android:textSize="35sp"></TextView>
+        android:textSize="35sp" />
 </LinearLayout>
