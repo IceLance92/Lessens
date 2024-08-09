@@ -40,6 +40,7 @@
             <option value="$PROJECT_DIR$/p0461_expandablelistevents" />
             <option value="$PROJECT_DIR$/p0471_recycleview" />
             <option value="$PROJECT_DIR$/p0561_spinner" />
+            <option value="$PROJECT_DIR$/p0581_timepickerdialog" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
