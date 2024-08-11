@@ -1,5 +1,6 @@
 package com.practicum.p0631_alertdialogitemssingle;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.database.Cursor;
@@ -80,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
     }
     // обработчик нажатия на пункт списка диалога или кнопку
     DialogInterface.OnClickListener myClickListener = new DialogInterface.OnClickListener() {
+        @SuppressLint("SuspiciousIndentation")
         @Override
         public void onClick(DialogInterface dialog, int which) {
             ListView lv = ((AlertDialog)dialog).getListView();
@@ -90,6 +92,11 @@ public class MainActivity extends AppCompatActivity {
                 // выводим в лог позицию нажатого элемента
             Log.d(LOG_TAG, "which = " + which);
         }
+    };
+
+    @Override
+    protected void onPrepareDialog(int id, Dialog dialog) {
+        ((android.app.AlertDialog)dialog).getListView().setItemChecked(2, true);
     };
 
     @Override
