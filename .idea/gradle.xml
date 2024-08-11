@@ -41,6 +41,7 @@
             <option value="$PROJECT_DIR$/p0471_recycleview" />
             <option value="$PROJECT_DIR$/p0561_spinner" />
             <option value="$PROJECT_DIR$/p0581_timepickerdialog" />
+            <option value="$PROJECT_DIR$/p0591_datepickerdialog" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
