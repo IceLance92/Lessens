@@ -44,7 +44,15 @@
             <option value="$PROJECT_DIR$/p0591_datepickerdialog" />
             <option value="$PROJECT_DIR$/p0601_alertdialogsimple" />
             <option value="$PROJECT_DIR$/p0611_alertdialogprepare" />
+<<<<<<< HEAD
             <option value="$PROJECT_DIR$/p0631_alertdialogitemssingle" />
+=======
+<<<<<<< HEAD
+            <option value="$PROJECT_DIR$/p0621_alertdialogitems" />
+=======
+            <option value="$PROJECT_DIR$/p0631_alertdialogitemssingle" />
+>>>>>>> main
+>>>>>>> easy
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
