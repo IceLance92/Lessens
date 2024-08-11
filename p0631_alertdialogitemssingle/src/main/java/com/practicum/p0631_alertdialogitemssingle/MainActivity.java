@@ -95,11 +95,6 @@ public class MainActivity extends AppCompatActivity {
     };
 
     @Override
-    protected void onPrepareDialog(int id, Dialog dialog) {
-        ((android.app.AlertDialog)dialog).getListView().setItemChecked(2, true);
-    };
-
-    @Override
     protected void onDestroy() {
         super.onDestroy();
         db.close();

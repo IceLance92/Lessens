@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleJvm" value="jbr-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/P0101_listener" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/mvideo" />
+            <option value="$PROJECT_DIR$/p0061_layouts" />
+            <option value="$PROJECT_DIR$/p0061_linearlayour" />
+            <option value="$PROJECT_DIR$/p0072_layouttema" />
+            <option value="$PROJECT_DIR$/p0081_viewbyld" />
+            <option value="$PROJECT_DIR$/p0211_twoactivity" />
+            <option value="$PROJECT_DIR$/p0241_twoactivitystate" />
+            <option value="$PROJECT_DIR$/p0261_intentfilter" />
+            <option value="$PROJECT_DIR$/p0271_getintentaction" />
+            <option value="$PROJECT_DIR$/p0281_intentextras" />
+            <option value="$PROJECT_DIR$/p0291_simpleactivityresult" />
+            <option value="$PROJECT_DIR$/p0301_activityresult" />
+            <option value="$PROJECT_DIR$/p0311_simpleintents" />
+            <option value="$PROJECT_DIR$/p0321_simplebrowser" />
+            <option value="$PROJECT_DIR$/p0331_sharedpreferences" />
+            <option value="$PROJECT_DIR$/p0341_simplesqlite" />
+            <option value="$PROJECT_DIR$/p0361_sqlitequery" />
+            <option value="$PROJECT_DIR$/p0371_sqliteinnerjoin" />
+            <option value="$PROJECT_DIR$/p0372_sqliteinnerjoinn" />
+            <option value="$PROJECT_DIR$/p0381_sqlitetransaction" />
+            <option value="$PROJECT_DIR$/p0401_layoutinflater" />
+            <option value="$PROJECT_DIR$/p0411_layoutinflaterlist" />
+            <option value="$PROJECT_DIR$/p0421_simplelist" />
+            <option value="$PROJECT_DIR$/p0431_simplelistchoice" />
+            <option value="$PROJECT_DIR$/p0441_simplelistevents" />
+            <option value="$PROJECT_DIR$/p0451_expandablelist" />
+            <option value="$PROJECT_DIR$/p0461_expandablelistevents" />
+            <option value="$PROJECT_DIR$/p0471_recycleview" />
+            <option value="$PROJECT_DIR$/p0561_spinner" />
+            <option value="$PROJECT_DIR$/p0581_timepickerdialog" />
+            <option value="$PROJECT_DIR$/p0591_datepickerdialog" />
+            <option value="$PROJECT_DIR$/p0601_alertdialogsimple" />
+            <option value="$PROJECT_DIR$/p0611_alertdialogprepare" />
+            <option value="$PROJECT_DIR$/p0621_alertdialogitems" />
+            <option value="$PROJECT_DIR$/p0631_alertdialogitemssingle" />
+          </set>
+        </option>
         <option name="resolveExternalAnnotations" value="false" />
       </GradleProjectSettings>
     </option>
