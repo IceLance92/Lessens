@@ -1,5 +1,6 @@
 package com.practicum.p0601_alertdialogsimple;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -22,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
     }
+    @SuppressLint("MissingSuperCall")
+    public void onBackPressed() {
+        // вызываем диалог
+        showDialog(DIALOG_EXIT);
+    }
 
     public void onclick(View view) {
         // вызываем диалог
@@ -30,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     protected Dialog onCreateDialog(int id) {
         if (id == DIALOG_EXIT) {
             AlertDialog.Builder adb = new AlertDialog.Builder(this);
+            adb.setCancelable(false);
             // заголовок
             adb.setTitle(R.string.exit);
             //сообщение
@@ -42,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
             adb.setNegativeButton(R.string.no, myClickListener);
             // кнопка нейтрального ответа
             adb.setNegativeButton(R.string.cancel, myClickListener);
+            adb.setCancelable(false);
             // создаем диалог
             return adb.create();
         }
@@ -58,7 +66,8 @@ public class MainActivity extends AppCompatActivity {
                     break;
                     // негативная кнопка
                 case Dialog.BUTTON_NEGATIVE:
-                    finish();
+                    message();
+                    //finish();
                     break;
                     // нейтральная кнопка
                 case Dialog.BUTTON_NEUTRAL:
@@ -68,5 +77,8 @@ public class MainActivity extends AppCompatActivity {
     };
     void saveData() {
         Toast.makeText(this, R.string.saved, Toast.LENGTH_SHORT).show();
+    }
+    void message() {
+        Toast.makeText(this, R.string.cancel, Toast.LENGTH_SHORT).show();
     }
 }
