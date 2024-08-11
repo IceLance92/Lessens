@@ -56,4 +56,8 @@ include(":p0581_timepickerdialog")
 include(":p0591_datepickerdialog")
 include(":p0601_alertdialogsimple")
 include(":p0611_alertdialogprepare")
+<<<<<<< HEAD
 include(":p0621_alertdialogitems")
+=======
+include(":p0631_alertdialogitemssingle")
+>>>>>>> main

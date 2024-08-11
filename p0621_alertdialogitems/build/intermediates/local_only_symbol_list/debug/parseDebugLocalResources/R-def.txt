@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnAdapter
+id btnCursor
+id btnItems
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string adapter
+string app_name
+string cursor
+string items
+style Base.Theme.AndroidLessens
+style Theme.AndroidLessens

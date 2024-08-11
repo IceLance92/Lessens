@@ -107,6 +107,7 @@
       <SelectionState runConfigName="p0611_alertdialogprepare">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+<<<<<<< HEAD
       <SelectionState runConfigName="p0621_alertdialogitems">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2024-08-11T21:21:37.012472800Z">
@@ -117,6 +118,10 @@
           </Target>
         </DropdownSelection>
         <DialogSelection />
+=======
+      <SelectionState runConfigName="p0631_alertdialogitemssingle">
+        <option name="selectionMode" value="DROPDOWN" />
+>>>>>>> main
       </SelectionState>
     </selectionStates>
   </component>

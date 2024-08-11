@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="adapter">Adapter</string>
+    <string name="app_name">AlertDialogItems</string>
+    <string name="cursor">Cursor</string>
+    <string name="items">Items</string>
+    <style name="Base.Theme.AndroidLessens" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.AndroidLessens" parent="Base.Theme.AndroidLessens"/>
+</resources>
