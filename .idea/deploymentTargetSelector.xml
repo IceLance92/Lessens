@@ -21,10 +21,10 @@
       </SelectionState>
       <SelectionState runConfigName="p0661_alertdialogoperations">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-08-12T23:47:46.526722Z">
+        <DropdownSelection timestamp="2024-08-13T00:00:30.327117Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Александр\.android\avd\Phone_Android.avd" />
+              <DeviceId pluginId="PhysicalDevice" identifier="serial=fb5a3669" />
             </handle>
           </Target>
         </DropdownSelection>
