@@ -51,6 +51,7 @@
             <option value="$PROJECT_DIR$/p0661_alertdialogoperations" />
             <option value="$PROJECT_DIR$/p0671_progressdialog" />
             <option value="$PROJECT_DIR$/p0681_parcel" />
+            <option value="$PROJECT_DIR$/p0691_parcelable" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
