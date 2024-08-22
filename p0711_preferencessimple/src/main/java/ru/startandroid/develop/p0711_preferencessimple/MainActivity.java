@@ -18,34 +18,31 @@ public class MainActivity extends AppCompatActivity {
     TextView tvInfo;
     SharedPreferences sp;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    /** Called when the activity is first created. */
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        tvInfo = findViewById(R.id.tvInfo);
+        tvInfo = (TextView) findViewById(R.id.tvInfo);
 
-        // получаем SharedPreferens, которое работает с файлом настроек
+        // получаем SharedPreferences, которое работает с файлом настроек
         sp = PreferenceManager.getDefaultSharedPreferences(this);
-        // полная очистка настрое
+        // полная очистка настроек
         // sp.edit().clear().commit();
     }
 
-    @Override
     protected void onResume() {
         Boolean notif = sp.getBoolean("notif", false);
-        String addres = sp.getString("address", "");
-        String text = "Notifications are" + ((notif) ? "enabled, address = " + addres : "disabled");
+        String address = sp.getString("address", "");
+        String text = "Notifications are "
+                + ((notif) ? "enabled, address = " + address : "disabled");
         tvInfo.setText(text);
         super.onResume();
     }
 
-    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuItem mi = menu.add(0, 1, 0, "Preferens");
+        MenuItem mi = menu.add(0, 1, 0, "Preferences");
         mi.setIntent(new Intent(this, PrefActivity.class));
         return super.onCreateOptionsMenu(menu);
     }
-
 }
