@@ -19,6 +19,9 @@
       <SelectionState runConfigName="p0721_preferencessimple2">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="p0731_preferencesenable">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
