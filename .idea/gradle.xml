@@ -57,6 +57,7 @@
             <option value="$PROJECT_DIR$/p0721_preferencessimple2" />
             <option value="$PROJECT_DIR$/p0731_preferencesenable" />
             <option value="$PROJECT_DIR$/p0761_files" />
+            <option value="$PROJECT_DIR$/p0801_handler" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
