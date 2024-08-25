@@ -149,6 +149,9 @@
       <SelectionState runConfigName="p0801_handler">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="p0811_handlersimplemessage">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
