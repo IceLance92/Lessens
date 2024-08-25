@@ -1,0 +1,1752 @@
+Index: settings.gradle.kts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>pluginManagement {\r\n    repositories {\r\n        google {\r\n            content {\r\n                includeGroupByRegex(\"com\\\\.android.*\")\r\n                includeGroupByRegex(\"com\\\\.google.*\")\r\n                includeGroupByRegex(\"androidx.*\")\r\n            }\r\n        }\r\n        mavenCentral()\r\n        gradlePluginPortal()\r\n    }\r\n}\r\ndependencyResolutionManagement {\r\n    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)\r\n    repositories {\r\n        google()\r\n        mavenCentral()\r\n    }\r\n}\r\n\r\nrootProject.name = \"Android Lessens\"\r\ninclude(\":app\")\r\ninclude(\":p0061_layouts\")\r\ninclude(\":p0061_linearlayour\")\r\ninclude(\":p0072_layouttema\")\r\ninclude(\":p0081_viewbyld\")\r\ninclude(\":P0101_listener\")\r\ninclude(\":p0211_twoactivity\")\r\ninclude(\":p0241_twoactivitystate\")\r\ninclude(\":p0261_intentfilter\")\r\ninclude(\":p0271_getintentaction\")\r\ninclude(\":p0281_intentextras\")\r\ninclude(\":p0291_simpleactivityresult\")\r\ninclude(\":p0301_activityresult\")\r\ninclude(\":p0311_simpleintents\")\r\ninclude(\":mvideo\")\r\ninclude(\":p0321_simplebrowser\")\r\ninclude(\":p0331_sharedpreferences\")\r\ninclude(\":p0341_simplesqlite\")\r\ninclude(\":p0361_sqlitequery\")\r\ninclude(\":p0371_sqliteinnerjoin\")\r\ninclude(\":p0372_sqliteinnerjoinn\")\r\ninclude(\":p0381_sqlitetransaction\")\r\ninclude(\":p0401_layoutinflater\")\r\ninclude(\":p0411_layoutinflaterlist\")\r\ninclude(\":p0421_simplelist\")\r\ninclude(\":p0421_simplelist\")\r\ninclude(\":p0431_simplelistchoice\")\r\ninclude(\":p0441_simplelistevents\")\r\ninclude(\":p0451_expandablelist\")\r\ninclude(\":p0461_expandablelistevents\")\r\ninclude(\":p0471_recycleview\")\r\ninclude(\":p0561_spinner\")\r\ninclude(\":p0581_timepickerdialog\")\r\ninclude(\":p0591_datepickerdialog\")\r\ninclude(\":p0601_alertdialogsimple\")\r\ninclude(\":p0611_alertdialogprepare\")\r\ninclude(\":p0631_alertdialogitemssingle\")\r\ninclude(\":p0621_alertdialogitems\")\r\ninclude(\":p0631_alertdialogitemssingle\")\r\ninclude(\":p0641_alertdialogitemsmulti\")\r\ninclude(\":p0651_alertdialogcustom\")\r\ninclude(\":p0661_alertdialogoperations\")\r\ninclude(\":p0671_progressdialog\")\r\ninclude(\":p0681_parcel\")\r\ninclude(\":p0691_parcelable\")\r\ninclude(\":p0701_saveinstancestate\")\r\ninclude(\":p0711_preferencessimple\")\r\ninclude(\":p0721_preferencessimple2\")\r\ninclude(\":p0731_preferencesenable\")\r\ninclude(\":p0761_files\")\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/settings.gradle.kts b/settings.gradle.kts
+--- a/settings.gradle.kts	(revision cc48c5ad3034c5a85dcd6f75db9cc7177fa6460b)
++++ b/settings.gradle.kts	(date 1724620866389)
+@@ -69,4 +69,3 @@
+ include(":p0711_preferencessimple")
+ include(":p0721_preferencessimple2")
+ include(":p0731_preferencesenable")
+-include(":p0761_files")
+Index: p0751_files/proguard-rules.pro
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/proguard-rules.pro b/p0751_files/proguard-rules.pro
+new file mode 100644
+--- /dev/null	(date 1724620799015)
++++ b/p0751_files/proguard-rules.pro	(date 1724620799015)
+@@ -0,0 +1,21 @@
++# Add project specific ProGuard rules here.
++# You can control the set of applied configuration files using the
++# proguardFiles setting in build.gradle.
++#
++# For more details, see
++#   http://developer.android.com/guide/developing/tools/proguard.html
++
++# If your project uses WebView with JS, uncomment the following
++# and specify the fully qualified class name to the JavaScript interface
++# class:
++#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
++#   public *;
++#}
++
++# Uncomment this to preserve the line number information for
++# debugging stack traces.
++#-keepattributes SourceFile,LineNumberTable
++
++# If you keep the line number information, uncomment this to
++# hide the original source file name.
++#-renamesourcefileattribute SourceFile
+\ No newline at end of file
+Index: p0751_files/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/.gitignore b/p0751_files/.gitignore
+new file mode 100644
+--- /dev/null	(date 1724620799014)
++++ b/p0751_files/.gitignore	(date 1724620799014)
+@@ -0,0 +1,1 @@
++/build
+\ No newline at end of file
+Index: p0751_files/build.gradle.kts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/build.gradle.kts b/p0751_files/build.gradle.kts
+new file mode 100644
+--- /dev/null	(date 1724620799014)
++++ b/p0751_files/build.gradle.kts	(date 1724620799014)
+@@ -0,0 +1,43 @@
++plugins {
++    alias(libs.plugins.androidApplication)
++}
++
++android {
++    namespace = "ru.startandroid.develop.p0751_files"
++    compileSdk = 34
++
++    defaultConfig {
++        applicationId = "ru.startandroid.develop.p0751_files"
++        minSdk = 24
++        targetSdk = 34
++        versionCode = 1
++        versionName = "1.0"
++
++        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
++    }
++
++    buildTypes {
++        release {
++            isMinifyEnabled = false
++            proguardFiles(
++                getDefaultProguardFile("proguard-android-optimize.txt"),
++                "proguard-rules.pro"
++            )
++        }
++    }
++    compileOptions {
++        sourceCompatibility = JavaVersion.VERSION_1_8
++        targetCompatibility = JavaVersion.VERSION_1_8
++    }
++}
++
++dependencies {
++
++    implementation(libs.appcompat)
++    implementation(libs.material)
++    implementation(libs.activity)
++    implementation(libs.constraintlayout)
++    testImplementation(libs.junit)
++    androidTestImplementation(libs.ext.junit)
++    androidTestImplementation(libs.espresso.core)
++}
+\ No newline at end of file
+Index: p0751_files/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/src/main/AndroidManifest.xml b/p0751_files/src/main/AndroidManifest.xml
+new file mode 100644
+--- /dev/null	(date 1724620799018)
++++ b/p0751_files/src/main/AndroidManifest.xml	(date 1724620799018)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android">
++
++    <application
++        android:allowBackup="true"
++        android:icon="@mipmap/ic_launcher"
++        android:label="@string/app_name"
++        android:roundIcon="@mipmap/ic_launcher_round"
++        android:supportsRtl="true"
++        android:theme="@style/Theme.AndroidLessens">
++        <activity
++            android:name=".MainActivity"
++            android:exported="true">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++
++                <category android:name="android.intent.category.LAUNCHER" />
++            </intent-filter>
++        </activity>
++    </application>
++
++</manifest>
+\ No newline at end of file
+Index: p0751_files/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/src/main/res/values/colors.xml b/p0751_files/src/main/res/values/colors.xml
+new file mode 100644
+--- /dev/null	(date 1724620799030)
++++ b/p0751_files/src/main/res/values/colors.xml	(date 1724620799030)
+@@ -0,0 +1,5 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <color name="black">#FF000000</color>
++    <color name="white">#FFFFFFFF</color>
++</resources>
+\ No newline at end of file
+Index: p0751_files/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/src/main/res/values/strings.xml b/p0751_files/src/main/res/values/strings.xml
+new file mode 100644
+--- /dev/null	(date 1724620799031)
++++ b/p0751_files/src/main/res/values/strings.xml	(date 1724620799031)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <string name="app_name">P0751_Files</string>
++    <string name="write_file">Записать файл</string>
++    <string name="read_file">Прочесть файл</string>
++    <string name="write_file_sd">Записать файл на SD</string>
++    <string name="read_file_sd">Прочесть файл с SD</string>
++</resources>
+\ No newline at end of file
+Index: p0741_preferencescode/src/main/res/drawable/ic_launcher_foreground.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/main/res/drawable/ic_launcher_foreground.xml b/p0741_preferencescode/src/main/res/drawable/ic_launcher_foreground.xml
+new file mode 100644
+--- /dev/null	(date 1724620799002)
++++ b/p0741_preferencescode/src/main/res/drawable/ic_launcher_foreground.xml	(date 1724620799002)
+@@ -0,0 +1,30 @@
++<vector xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:aapt="http://schemas.android.com/aapt"
++    android:width="108dp"
++    android:height="108dp"
++    android:viewportWidth="108"
++    android:viewportHeight="108">
++    <path android:pathData="M31,63.928c0,0 6.4,-11 12.1,-13.1c7.2,-2.6 26,-1.4 26,-1.4l38.1,38.1L107,108.928l-32,-1L31,63.928z">
++        <aapt:attr name="android:fillColor">
++            <gradient
++                android:endX="85.84757"
++                android:endY="92.4963"
++                android:startX="42.9492"
++                android:startY="49.59793"
++                android:type="linear">
++                <item
++                    android:color="#44000000"
++                    android:offset="0.0" />
++                <item
++                    android:color="#00000000"
++                    android:offset="1.0" />
++            </gradient>
++        </aapt:attr>
++    </path>
++    <path
++        android:fillColor="#FFFFFF"
++        android:fillType="nonZero"
++        android:pathData="M65.3,45.828l3.8,-6.6c0.2,-0.4 0.1,-0.9 -0.3,-1.1c-0.4,-0.2 -0.9,-0.1 -1.1,0.3l-3.9,6.7c-6.3,-2.8 -13.4,-2.8 -19.7,0l-3.9,-6.7c-0.2,-0.4 -0.7,-0.5 -1.1,-0.3C38.8,38.328 38.7,38.828 38.9,39.228l3.8,6.6C36.2,49.428 31.7,56.028 31,63.928h46C76.3,56.028 71.8,49.428 65.3,45.828zM43.4,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2c-0.3,-0.7 -0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C45.3,56.528 44.5,57.328 43.4,57.328L43.4,57.328zM64.6,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2s-0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C66.5,56.528 65.6,57.328 64.6,57.328L64.6,57.328z"
++        android:strokeWidth="1"
++        android:strokeColor="#00000000" />
++</vector>
+\ No newline at end of file
+Index: p0751_files/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/src/main/res/layout/activity_main.xml b/p0751_files/src/main/res/layout/activity_main.xml
+new file mode 100644
+--- /dev/null	(date 1724620799022)
++++ b/p0751_files/src/main/res/layout/activity_main.xml	(date 1724620799022)
+@@ -0,0 +1,45 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_width="fill_parent"
++    android:layout_height="fill_parent"
++    android:layout_gravity="center_horizontal"
++    android:layout_margin="40dp"
++    android:orientation="vertical">
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content">
++        <Button
++            android:id="@+id/btnWrite"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:text="@string/write_file"
++            android:onClick="onclick">
++        </Button>
++        <Button
++            android:id="@+id/btnRead"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:text="@string/read_file"
++            android:onClick="onclick">
++        </Button>
++    </LinearLayout>
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content">
++        <Button
++            android:id="@+id/btnWriteSD"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:text="@string/write_file_sd"
++            android:onClick="onclick">
++        </Button>
++        <Button
++            android:id="@+id/btnReadSD"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:text="@string/read_file_sd"
++            android:onClick="onclick">
++        </Button>
++    </LinearLayout>
++</LinearLayout>
+\ No newline at end of file
+Index: p0751_files/src/main/res/drawable/ic_launcher_foreground.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/src/main/res/drawable/ic_launcher_foreground.xml b/p0751_files/src/main/res/drawable/ic_launcher_foreground.xml
+new file mode 100644
+--- /dev/null	(date 1724620799021)
++++ b/p0751_files/src/main/res/drawable/ic_launcher_foreground.xml	(date 1724620799021)
+@@ -0,0 +1,30 @@
++<vector xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:aapt="http://schemas.android.com/aapt"
++    android:width="108dp"
++    android:height="108dp"
++    android:viewportWidth="108"
++    android:viewportHeight="108">
++    <path android:pathData="M31,63.928c0,0 6.4,-11 12.1,-13.1c7.2,-2.6 26,-1.4 26,-1.4l38.1,38.1L107,108.928l-32,-1L31,63.928z">
++        <aapt:attr name="android:fillColor">
++            <gradient
++                android:endX="85.84757"
++                android:endY="92.4963"
++                android:startX="42.9492"
++                android:startY="49.59793"
++                android:type="linear">
++                <item
++                    android:color="#44000000"
++                    android:offset="0.0" />
++                <item
++                    android:color="#00000000"
++                    android:offset="1.0" />
++            </gradient>
++        </aapt:attr>
++    </path>
++    <path
++        android:fillColor="#FFFFFF"
++        android:fillType="nonZero"
++        android:pathData="M65.3,45.828l3.8,-6.6c0.2,-0.4 0.1,-0.9 -0.3,-1.1c-0.4,-0.2 -0.9,-0.1 -1.1,0.3l-3.9,6.7c-6.3,-2.8 -13.4,-2.8 -19.7,0l-3.9,-6.7c-0.2,-0.4 -0.7,-0.5 -1.1,-0.3C38.8,38.328 38.7,38.828 38.9,39.228l3.8,6.6C36.2,49.428 31.7,56.028 31,63.928h46C76.3,56.028 71.8,49.428 65.3,45.828zM43.4,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2c-0.3,-0.7 -0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C45.3,56.528 44.5,57.328 43.4,57.328L43.4,57.328zM64.6,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2s-0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C66.5,56.528 65.6,57.328 64.6,57.328L64.6,57.328z"
++        android:strokeWidth="1"
++        android:strokeColor="#00000000" />
++</vector>
+\ No newline at end of file
+Index: p0741_preferencescode/src/main/res/values-night/themes.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/main/res/values-night/themes.xml b/p0741_preferencescode/src/main/res/values-night/themes.xml
+new file mode 100644
+--- /dev/null	(date 1724620799009)
++++ b/p0741_preferencescode/src/main/res/values-night/themes.xml	(date 1724620799009)
+@@ -0,0 +1,7 @@
++<resources xmlns:tools="http://schemas.android.com/tools">
++    <!-- Base application theme. -->
++    <style name="Base.Theme.AndroidLessens" parent="Theme.Material3.DayNight.NoActionBar">
++        <!-- Customize your dark theme here. -->
++        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
++    </style>
++</resources>
+\ No newline at end of file
+Index: p0751_files/src/main/res/values/themes.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/src/main/res/values/themes.xml b/p0751_files/src/main/res/values/themes.xml
+new file mode 100644
+--- /dev/null	(date 1724620799031)
++++ b/p0751_files/src/main/res/values/themes.xml	(date 1724620799031)
+@@ -0,0 +1,9 @@
++<resources xmlns:tools="http://schemas.android.com/tools">
++    <!-- Base application theme. -->
++    <style name="Base.Theme.AndroidLessens" parent="Theme.Material3.DayNight.NoActionBar">
++        <!-- Customize your light theme here. -->
++        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
++    </style>
++
++    <style name="Theme.AndroidLessens" parent="Base.Theme.AndroidLessens" />
++</resources>
+\ No newline at end of file
+Index: p0751_files/src/main/res/drawable/ic_launcher_background.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/src/main/res/drawable/ic_launcher_background.xml b/p0751_files/src/main/res/drawable/ic_launcher_background.xml
+new file mode 100644
+--- /dev/null	(date 1724620799021)
++++ b/p0751_files/src/main/res/drawable/ic_launcher_background.xml	(date 1724620799021)
+@@ -0,0 +1,170 @@
++<?xml version="1.0" encoding="utf-8"?>
++<vector xmlns:android="http://schemas.android.com/apk/res/android"
++    android:width="108dp"
++    android:height="108dp"
++    android:viewportWidth="108"
++    android:viewportHeight="108">
++    <path
++        android:fillColor="#3DDC84"
++        android:pathData="M0,0h108v108h-108z" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M9,0L9,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,0L19,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M29,0L29,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M39,0L39,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M49,0L49,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M59,0L59,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M69,0L69,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M79,0L79,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M89,0L89,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M99,0L99,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,9L108,9"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,19L108,19"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,29L108,29"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,39L108,39"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,49L108,49"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,59L108,59"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,69L108,69"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,79L108,79"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,89L108,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,99L108,99"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,29L89,29"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,39L89,39"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,49L89,49"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,59L89,59"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,69L89,69"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,79L89,79"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M29,19L29,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M39,19L39,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M49,19L49,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M59,19L59,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M69,19L69,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M79,19L79,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++</vector>
+Index: p0741_preferencescode/src/main/res/xml/pref.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/main/res/xml/pref.xml b/p0741_preferencescode/src/main/res/xml/pref.xml
+new file mode 100644
+--- /dev/null	(date 1724620799011)
++++ b/p0741_preferencescode/src/main/res/xml/pref.xml	(date 1724620799011)
+@@ -0,0 +1,59 @@
++<?xml version="1.0" encoding="utf-8"?>
++<PreferenceScreen
++    xmlns:android="http://schemas.android.com/apk/res/android">
++    <CheckBoxPreference
++        android:key="chb1"
++        android:summaryOff="Description of checkbox 1 off"
++        android:summaryOn="Description of checkbox 1 on"
++        android:title="CheckBox 1">
++    </CheckBoxPreference>
++    <ListPreference
++        android:dependency="chb1"
++        android:entries="@array/entries"
++        android:entryValues="@array/entry_values"
++        android:key="list"
++        android:summary="Description of list"
++        android:title="List">
++    </ListPreference>
++    <CheckBoxPreference
++        android:key="chb2"
++        android:summary="Description of checkbox 2"
++        android:title="CheckBox 2">
++    </CheckBoxPreference>
++    <PreferenceScreen
++        android:dependency="chb2"
++        android:key="screen"
++        android:summary="Description of screen"
++        android:title="Screen">
++        <CheckBoxPreference
++            android:key="chb3"
++            android:summary="Description of checkbox 3"
++            android:title="CheckBox 3">
++        </CheckBoxPreference>
++        <PreferenceCategory
++            android:key="categ1"
++            android:summary="Description of category 1"
++            android:title="Category 1">
++            <CheckBoxPreference
++                android:key="chb4"
++                android:summary="Description of checkbox 4"
++                android:title="CheckBox 4">
++            </CheckBoxPreference>
++        </PreferenceCategory>
++        <PreferenceCategory
++            android:key="categ2"
++            android:summary="Description of category 2"
++            android:title="Category 2">
++            <CheckBoxPreference
++                android:key="chb5"
++                android:summary="Description of checkbox 5"
++                android:title="CheckBox 5">
++            </CheckBoxPreference>
++            <CheckBoxPreference
++                android:key="chb6"
++                android:summary="Description of checkbox 6"
++                android:title="CheckBox 6">
++            </CheckBoxPreference>
++        </PreferenceCategory>
++    </PreferenceScreen>
++</PreferenceScreen>
+\ No newline at end of file
+Index: p0741_preferencescode/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/main/res/layout/activity_main.xml b/p0741_preferencescode/src/main/res/layout/activity_main.xml
+new file mode 100644
+--- /dev/null	(date 1724620799002)
++++ b/p0741_preferencescode/src/main/res/layout/activity_main.xml	(date 1724620799002)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:id="@+id/main"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".MainActivity">
++
++    <TextView
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="Hello World!"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: p0741_preferencescode/src/main/res/values/themes.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/main/res/values/themes.xml b/p0741_preferencescode/src/main/res/values/themes.xml
+new file mode 100644
+--- /dev/null	(date 1724620799011)
++++ b/p0741_preferencescode/src/main/res/values/themes.xml	(date 1724620799011)
+@@ -0,0 +1,9 @@
++<resources xmlns:tools="http://schemas.android.com/tools">
++    <!-- Base application theme. -->
++    <style name="Base.Theme.AndroidLessens" parent="Theme.Material3.DayNight.NoActionBar">
++        <!-- Customize your light theme here. -->
++        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
++    </style>
++
++    <style name="Theme.AndroidLessens" parent="Base.Theme.AndroidLessens" />
++</resources>
+\ No newline at end of file
+Index: p0741_preferencescode/src/main/res/drawable/ic_launcher_background.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/main/res/drawable/ic_launcher_background.xml b/p0741_preferencescode/src/main/res/drawable/ic_launcher_background.xml
+new file mode 100644
+--- /dev/null	(date 1724620799001)
++++ b/p0741_preferencescode/src/main/res/drawable/ic_launcher_background.xml	(date 1724620799001)
+@@ -0,0 +1,170 @@
++<?xml version="1.0" encoding="utf-8"?>
++<vector xmlns:android="http://schemas.android.com/apk/res/android"
++    android:width="108dp"
++    android:height="108dp"
++    android:viewportWidth="108"
++    android:viewportHeight="108">
++    <path
++        android:fillColor="#3DDC84"
++        android:pathData="M0,0h108v108h-108z" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M9,0L9,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,0L19,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M29,0L29,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M39,0L39,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M49,0L49,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M59,0L59,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M69,0L69,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M79,0L79,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M89,0L89,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M99,0L99,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,9L108,9"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,19L108,19"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,29L108,29"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,39L108,39"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,49L108,49"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,59L108,59"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,69L108,69"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,79L108,79"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,89L108,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,99L108,99"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,29L89,29"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,39L89,39"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,49L89,49"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,59L89,59"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,69L89,69"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,79L89,79"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M29,19L29,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M39,19L39,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M49,19L49,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M59,19L59,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M69,19L69,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M79,19L79,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++</vector>
+Index: p0741_preferencescode/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/main/res/values/colors.xml b/p0741_preferencescode/src/main/res/values/colors.xml
+new file mode 100644
+--- /dev/null	(date 1724620799010)
++++ b/p0741_preferencescode/src/main/res/values/colors.xml	(date 1724620799010)
+@@ -0,0 +1,5 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <color name="black">#FF000000</color>
++    <color name="white">#FFFFFFFF</color>
++</resources>
+\ No newline at end of file
+Index: p0741_preferencescode/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/main/res/values/strings.xml b/p0741_preferencescode/src/main/res/values/strings.xml
+new file mode 100644
+--- /dev/null	(date 1724620799010)
++++ b/p0741_preferencescode/src/main/res/values/strings.xml	(date 1724620799010)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <string name="hello">Hello World, MainActivity!</string>
++    <string name="app_name">PreferencesCode</string>
++    <string-array name="entries">
++        <item>one</item>
++        <item>two</item>
++        <item>three</item>
++    </string-array>
++    <string-array name="entry_values">
++        <item>1</item>
++        <item>2</item>
++        <item>3</item>
++    </string-array>
++</resources>
+\ No newline at end of file
+Index: p0751_files/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/src/main/res/mipmap-anydpi-v26/ic_launcher.xml b/p0751_files/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+new file mode 100644
+--- /dev/null	(date 1724620799023)
++++ b/p0751_files/src/main/res/mipmap-anydpi-v26/ic_launcher.xml	(date 1724620799023)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8"?>
++<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
++    <background android:drawable="@drawable/ic_launcher_background" />
++    <foreground android:drawable="@drawable/ic_launcher_foreground" />
++    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
++</adaptive-icon>
+\ No newline at end of file
+Index: p0751_files/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml b/p0751_files/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+new file mode 100644
+--- /dev/null	(date 1724620799023)
++++ b/p0751_files/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml	(date 1724620799023)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8"?>
++<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
++    <background android:drawable="@drawable/ic_launcher_background" />
++    <foreground android:drawable="@drawable/ic_launcher_foreground" />
++    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
++</adaptive-icon>
+\ No newline at end of file
+Index: p0741_preferencescode/src/main/java/ru/startandroid/develop/p0741_preferencescode/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/main/java/ru/startandroid/develop/p0741_preferencescode/MainActivity.java b/p0741_preferencescode/src/main/java/ru/startandroid/develop/p0741_preferencescode/MainActivity.java
+new file mode 100644
+--- /dev/null	(date 1724620799000)
++++ b/p0741_preferencescode/src/main/java/ru/startandroid/develop/p0741_preferencescode/MainActivity.java	(date 1724620799000)
+@@ -0,0 +1,30 @@
++package ru.startandroid.develop.p0741_preferencescode;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++
++import androidx.activity.EdgeToEdge;
++import androidx.appcompat.app.AppCompatActivity;
++import androidx.core.graphics.Insets;
++import androidx.core.view.ViewCompat;
++import androidx.core.view.WindowInsetsCompat;
++
++public class MainActivity extends AppCompatActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        EdgeToEdge.enable(this);
++        setContentView(R.layout.activity_main);
++
++    }
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        MenuItem mi = menu.add(0,1,0, "Preferences");
++        mi.setIntent(new Intent(this, PrefActivity.class));
++        return super.onCreateOptionsMenu(menu);
++    }
++}
+\ No newline at end of file
+Index: p0741_preferencescode/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/main/res/mipmap-anydpi-v26/ic_launcher.xml b/p0741_preferencescode/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+new file mode 100644
+--- /dev/null	(date 1724620799003)
++++ b/p0741_preferencescode/src/main/res/mipmap-anydpi-v26/ic_launcher.xml	(date 1724620799003)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8"?>
++<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
++    <background android:drawable="@drawable/ic_launcher_background" />
++    <foreground android:drawable="@drawable/ic_launcher_foreground" />
++    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
++</adaptive-icon>
+\ No newline at end of file
+Index: p0751_files/src/main/res/values-night/themes.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/src/main/res/values-night/themes.xml b/p0751_files/src/main/res/values-night/themes.xml
+new file mode 100644
+--- /dev/null	(date 1724620799030)
++++ b/p0751_files/src/main/res/values-night/themes.xml	(date 1724620799030)
+@@ -0,0 +1,7 @@
++<resources xmlns:tools="http://schemas.android.com/tools">
++    <!-- Base application theme. -->
++    <style name="Base.Theme.AndroidLessens" parent="Theme.Material3.DayNight.NoActionBar">
++        <!-- Customize your dark theme here. -->
++        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
++    </style>
++</resources>
+\ No newline at end of file
+Index: p0741_preferencescode/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml b/p0741_preferencescode/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+new file mode 100644
+--- /dev/null	(date 1724620799003)
++++ b/p0741_preferencescode/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml	(date 1724620799003)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8"?>
++<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
++    <background android:drawable="@drawable/ic_launcher_background" />
++    <foreground android:drawable="@drawable/ic_launcher_foreground" />
++    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
++</adaptive-icon>
+\ No newline at end of file
+Index: p0741_preferencescode/proguard-rules.pro
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/proguard-rules.pro b/p0741_preferencescode/proguard-rules.pro
+new file mode 100644
+--- /dev/null	(date 1724620798996)
++++ b/p0741_preferencescode/proguard-rules.pro	(date 1724620798996)
+@@ -0,0 +1,21 @@
++# Add project specific ProGuard rules here.
++# You can control the set of applied configuration files using the
++# proguardFiles setting in build.gradle.
++#
++# For more details, see
++#   http://developer.android.com/guide/developing/tools/proguard.html
++
++# If your project uses WebView with JS, uncomment the following
++# and specify the fully qualified class name to the JavaScript interface
++# class:
++#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
++#   public *;
++#}
++
++# Uncomment this to preserve the line number information for
++# debugging stack traces.
++#-keepattributes SourceFile,LineNumberTable
++
++# If you keep the line number information, uncomment this to
++# hide the original source file name.
++#-renamesourcefileattribute SourceFile
+\ No newline at end of file
+Index: p0741_preferencescode/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/.gitignore b/p0741_preferencescode/.gitignore
+new file mode 100644
+--- /dev/null	(date 1724620798995)
++++ b/p0741_preferencescode/.gitignore	(date 1724620798995)
+@@ -0,0 +1,1 @@
++/build
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"gradleJvm\" value=\"#GRADLE_LOCAL_JAVA_HOME\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/P0101_listener\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n            <option value=\"$PROJECT_DIR$/mvideo\" />\r\n            <option value=\"$PROJECT_DIR$/p0061_layouts\" />\r\n            <option value=\"$PROJECT_DIR$/p0061_linearlayour\" />\r\n            <option value=\"$PROJECT_DIR$/p0072_layouttema\" />\r\n            <option value=\"$PROJECT_DIR$/p0081_viewbyld\" />\r\n            <option value=\"$PROJECT_DIR$/p0211_twoactivity\" />\r\n            <option value=\"$PROJECT_DIR$/p0241_twoactivitystate\" />\r\n            <option value=\"$PROJECT_DIR$/p0261_intentfilter\" />\r\n            <option value=\"$PROJECT_DIR$/p0271_getintentaction\" />\r\n            <option value=\"$PROJECT_DIR$/p0281_intentextras\" />\r\n            <option value=\"$PROJECT_DIR$/p0291_simpleactivityresult\" />\r\n            <option value=\"$PROJECT_DIR$/p0301_activityresult\" />\r\n            <option value=\"$PROJECT_DIR$/p0311_simpleintents\" />\r\n            <option value=\"$PROJECT_DIR$/p0321_simplebrowser\" />\r\n            <option value=\"$PROJECT_DIR$/p0331_sharedpreferences\" />\r\n            <option value=\"$PROJECT_DIR$/p0341_simplesqlite\" />\r\n            <option value=\"$PROJECT_DIR$/p0361_sqlitequery\" />\r\n            <option value=\"$PROJECT_DIR$/p0371_sqliteinnerjoin\" />\r\n            <option value=\"$PROJECT_DIR$/p0372_sqliteinnerjoinn\" />\r\n            <option value=\"$PROJECT_DIR$/p0381_sqlitetransaction\" />\r\n            <option value=\"$PROJECT_DIR$/p0401_layoutinflater\" />\r\n            <option value=\"$PROJECT_DIR$/p0411_layoutinflaterlist\" />\r\n            <option value=\"$PROJECT_DIR$/p0421_simplelist\" />\r\n            <option value=\"$PROJECT_DIR$/p0431_simplelistchoice\" />\r\n            <option value=\"$PROJECT_DIR$/p0441_simplelistevents\" />\r\n            <option value=\"$PROJECT_DIR$/p0451_expandablelist\" />\r\n            <option value=\"$PROJECT_DIR$/p0461_expandablelistevents\" />\r\n            <option value=\"$PROJECT_DIR$/p0471_recycleview\" />\r\n            <option value=\"$PROJECT_DIR$/p0561_spinner\" />\r\n            <option value=\"$PROJECT_DIR$/p0581_timepickerdialog\" />\r\n            <option value=\"$PROJECT_DIR$/p0591_datepickerdialog\" />\r\n            <option value=\"$PROJECT_DIR$/p0601_alertdialogsimple\" />\r\n            <option value=\"$PROJECT_DIR$/p0611_alertdialogprepare\" />\r\n            <option value=\"$PROJECT_DIR$/p0621_alertdialogitems\" />\r\n            <option value=\"$PROJECT_DIR$/p0631_alertdialogitemssingle\" />\r\n            <option value=\"$PROJECT_DIR$/p0641_alertdialogitemsmulti\" />\r\n            <option value=\"$PROJECT_DIR$/p0651_alertdialogcustom\" />\r\n            <option value=\"$PROJECT_DIR$/p0661_alertdialogoperations\" />\r\n            <option value=\"$PROJECT_DIR$/p0671_progressdialog\" />\r\n            <option value=\"$PROJECT_DIR$/p0681_parcel\" />\r\n            <option value=\"$PROJECT_DIR$/p0691_parcelable\" />\r\n            <option value=\"$PROJECT_DIR$/p0701_saveinstancestate\" />\r\n            <option value=\"$PROJECT_DIR$/p0711_preferencessimple\" />\r\n            <option value=\"$PROJECT_DIR$/p0721_preferencessimple2\" />\r\n            <option value=\"$PROJECT_DIR$/p0731_preferencesenable\" />\r\n            <option value=\"$PROJECT_DIR$/p0761_files\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveExternalAnnotations\" value=\"false\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision cc48c5ad3034c5a85dcd6f75db9cc7177fa6460b)
++++ b/.idea/gradle.xml	(date 1724620857432)
+@@ -5,7 +5,7 @@
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
++        <option name="gradleJvm" value="jbr-17" />
+         <option name="modules">
+           <set>
+             <option value="$PROJECT_DIR$" />
+@@ -56,7 +56,6 @@
+             <option value="$PROJECT_DIR$/p0711_preferencessimple" />
+             <option value="$PROJECT_DIR$/p0721_preferencessimple2" />
+             <option value="$PROJECT_DIR$/p0731_preferencesenable" />
+-            <option value="$PROJECT_DIR$/p0761_files" />
+           </set>
+         </option>
+         <option name="resolveExternalAnnotations" value="false" />
+Index: p0741_preferencescode/build.gradle.kts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/build.gradle.kts b/p0741_preferencescode/build.gradle.kts
+new file mode 100644
+--- /dev/null	(date 1724620798995)
++++ b/p0741_preferencescode/build.gradle.kts	(date 1724620798995)
+@@ -0,0 +1,43 @@
++plugins {
++    alias(libs.plugins.androidApplication)
++}
++
++android {
++    namespace = "ru.startandroid.develop.p0741_preferencescode"
++    compileSdk = 34
++
++    defaultConfig {
++        applicationId = "ru.startandroid.develop.p0741_preferencescode"
++        minSdk = 24
++        targetSdk = 34
++        versionCode = 1
++        versionName = "1.0"
++
++        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
++    }
++
++    buildTypes {
++        release {
++            isMinifyEnabled = false
++            proguardFiles(
++                getDefaultProguardFile("proguard-android-optimize.txt"),
++                "proguard-rules.pro"
++            )
++        }
++    }
++    compileOptions {
++        sourceCompatibility = JavaVersion.VERSION_1_8
++        targetCompatibility = JavaVersion.VERSION_1_8
++    }
++}
++
++dependencies {
++
++    implementation(libs.appcompat)
++    implementation(libs.material)
++    implementation(libs.activity)
++    implementation(libs.constraintlayout)
++    testImplementation(libs.junit)
++    androidTestImplementation(libs.ext.junit)
++    androidTestImplementation(libs.espresso.core)
++}
+\ No newline at end of file
+Index: p0741_preferencescode/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/main/AndroidManifest.xml b/p0741_preferencescode/src/main/AndroidManifest.xml
+new file mode 100644
+--- /dev/null	(date 1724620798998)
++++ b/p0741_preferencescode/src/main/AndroidManifest.xml	(date 1724620798998)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android">
++
++    <application
++        android:allowBackup="true"
++        android:icon="@mipmap/ic_launcher"
++        android:label="@string/app_name"
++        android:roundIcon="@mipmap/ic_launcher_round"
++        android:supportsRtl="true"
++        android:theme="@style/Theme.AndroidLessens">
++        <activity
++            android:name=".MainActivity"
++            android:exported="true">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++
++                <category android:name="android.intent.category.LAUNCHER" />
++            </intent-filter>
++        </activity>
++    </application>
++
++</manifest>
+\ No newline at end of file
+Index: .idea/deploymentTargetSelector.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"deploymentTargetSelector\">\r\n    <selectionStates>\r\n      <SelectionState runConfigName=\"p0081_viewbyld\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"mvideo\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0061_layouts\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0461_expandablelistevents\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0691_parcelable\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0401_layoutinflater\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0271_getintentaction\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0701_saveinstancestate\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0371_sqliteinnerjoin\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0451_expandablelist\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0072_layouttema\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0671_progressdialog\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0281_intentextras\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0061_linearlayour\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0611_alertdialogprepare\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0681_parcel\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0661_alertdialogoperations\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0321_simplebrowser\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0431_simplelistchoice\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"app\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0381_sqlitetransaction\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0291_simpleactivityresult\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0341_simplesqlite\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0601_alertdialogsimple\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0241_twoactivitystate\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0441_simplelistevents\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0581_timepickerdialog\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0372_sqliteinnerjoinn\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0591_datepickerdialog\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0651_alertdialogcustom\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0421_simplelist\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0641_alertdialogitemsmulti\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0301_activityresult\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0361_sqlitequery\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"P0101_listener\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0411_layoutinflaterlist\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0331_sharedpreferences\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0631_alertdialogitemssingle\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0731_preferencesenable\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0211_twoactivity\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0311_simpleintents\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0561_spinner\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0761_files\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0621_alertdialogitems\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0261_intentfilter\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0711_preferencessimple\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0471_recycleview\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"p0721_preferencessimple2\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n    </selectionStates>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/deploymentTargetSelector.xml b/.idea/deploymentTargetSelector.xml
+--- a/.idea/deploymentTargetSelector.xml	(revision cc48c5ad3034c5a85dcd6f75db9cc7177fa6460b)
++++ b/.idea/deploymentTargetSelector.xml	(date 1724620849812)
+@@ -2,148 +2,7 @@
+ <project version="4">
+   <component name="deploymentTargetSelector">
+     <selectionStates>
+-      <SelectionState runConfigName="p0081_viewbyld">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="mvideo">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0061_layouts">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0461_expandablelistevents">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0691_parcelable">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0401_layoutinflater">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0271_getintentaction">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0701_saveinstancestate">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0371_sqliteinnerjoin">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0451_expandablelist">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0072_layouttema">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0671_progressdialog">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0281_intentextras">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0061_linearlayour">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0611_alertdialogprepare">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0681_parcel">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0661_alertdialogoperations">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0321_simplebrowser">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0431_simplelistchoice">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="app">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0381_sqlitetransaction">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0291_simpleactivityresult">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0341_simplesqlite">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0601_alertdialogsimple">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0241_twoactivitystate">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0441_simplelistevents">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0581_timepickerdialog">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0372_sqliteinnerjoinn">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0591_datepickerdialog">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0651_alertdialogcustom">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0421_simplelist">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0641_alertdialogitemsmulti">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0301_activityresult">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0361_sqlitequery">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="P0101_listener">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0411_layoutinflaterlist">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0331_sharedpreferences">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0631_alertdialogitemssingle">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0731_preferencesenable">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0211_twoactivity">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0311_simpleintents">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0561_spinner">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0761_files">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0621_alertdialogitems">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0261_intentfilter">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0711_preferencessimple">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+       <SelectionState runConfigName="p0471_recycleview">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-      <SelectionState runConfigName="p0721_preferencessimple2">
+         <option name="selectionMode" value="DROPDOWN" />
+       </SelectionState>
+     </selectionStates>
+Index: p0741_preferencescode/src/androidTest/java/ru/startandroid/develop/p0741_preferencescode/ExampleInstrumentedTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/androidTest/java/ru/startandroid/develop/p0741_preferencescode/ExampleInstrumentedTest.java b/p0741_preferencescode/src/androidTest/java/ru/startandroid/develop/p0741_preferencescode/ExampleInstrumentedTest.java
+new file mode 100644
+--- /dev/null	(date 1724620798998)
++++ b/p0741_preferencescode/src/androidTest/java/ru/startandroid/develop/p0741_preferencescode/ExampleInstrumentedTest.java	(date 1724620798998)
+@@ -0,0 +1,26 @@
++package ru.startandroid.develop.p0741_preferencescode;
++
++import android.content.Context;
++
++import androidx.test.platform.app.InstrumentationRegistry;
++import androidx.test.ext.junit.runners.AndroidJUnit4;
++
++import org.junit.Test;
++import org.junit.runner.RunWith;
++
++import static org.junit.Assert.*;
++
++/**
++ * Instrumented test, which will execute on an Android device.
++ *
++ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
++ */
++@RunWith(AndroidJUnit4.class)
++public class ExampleInstrumentedTest {
++    @Test
++    public void useAppContext() {
++        // Context of the app under test.
++        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
++        assertEquals("ru.startandroid.develop.p0741_preferencescode", appContext.getPackageName());
++    }
++}
+\ No newline at end of file
+Index: p0741_preferencescode/src/main/java/ru/startandroid/develop/p0741_preferencescode/PrefActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/main/java/ru/startandroid/develop/p0741_preferencescode/PrefActivity.java b/p0741_preferencescode/src/main/java/ru/startandroid/develop/p0741_preferencescode/PrefActivity.java
+new file mode 100644
+--- /dev/null	(date 1724620799001)
++++ b/p0741_preferencescode/src/main/java/ru/startandroid/develop/p0741_preferencescode/PrefActivity.java	(date 1724620799001)
+@@ -0,0 +1,115 @@
++package ru.startandroid.develop.p0741_preferencescode;
++
++import android.os.Bundle;
++import android.preference.CheckBoxPreference;
++import android.preference.ListPreference;
++import android.preference.Preference;
++import android.preference.PreferenceActivity;
++import android.preference.PreferenceCategory;
++import android.preference.PreferenceScreen;
++import android.widget.ListView;
++
++public class PrefActivity extends PreferenceActivity {
++
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        // создаем экран
++        PreferenceScreen rootScreen = getPreferenceManager().createPreferenceScreen(this);
++        // говорим Activity, что rootScreen - корневой
++        setPreferenceScreen(rootScreen);
++
++        //далее создаем элементы, присваиваем атрибуты и формируем иерархию
++
++        CheckBoxPreference chb1 = new CheckBoxPreference(this);
++        chb1.setKey("chb1");
++        chb1.setTitle("CheckBox 1");
++        chb1.setSummaryOn("Description of checkbox 1 on");
++        chb1.setSummaryOff("Description of checkbox 1 off");
++
++        rootScreen.addPreference(chb1);
++
++        ListPreference list = new ListPreference(this);
++        list.setKey("list");
++        list.setTitle("List");
++        list.setSummary("Description of list");
++        list.setEntries(R.array.entries);
++        list.setEntryValues(R.array.entry_values);
++
++        rootScreen.addPreference(list);
++
++        CheckBoxPreference chb2 = new CheckBoxPreference(this);
++        chb2.setKey("chb2");
++        chb2.setTitle("CheckBox 2");
++        chb2.setSummary("Description of checkbox 2");
++
++        rootScreen.addPreference(chb2);
++
++
++        PreferenceScreen screen = getPreferenceManager().createPreferenceScreen(this);
++        screen.setKey("screen");
++        screen.setTitle("Screen");
++        screen.setSummary("Description of screen");
++
++
++        final CheckBoxPreference chb3 = new CheckBoxPreference(this);
++        chb3.setKey("chb3");
++        chb3.setTitle("CheckBox 3");
++        chb3.setSummary("Description of checkbox 3");
++
++        screen.addPreference(chb3);
++
++
++        PreferenceCategory categ1 = new PreferenceCategory(this);
++        categ1.setKey("categ1");
++        categ1.setTitle("Category 1");
++        categ1.setSummary("Description of category 1");
++
++        screen.addPreference(categ1);
++
++        CheckBoxPreference chb4 = new CheckBoxPreference(this);
++        chb4.setKey("chb4");
++        chb4.setTitle("CheckBox 4");
++        chb4.setSummary("Description of checkbox 4");
++
++        categ1.addPreference(chb4);
++
++
++        final PreferenceCategory categ2 = new PreferenceCategory(this);
++        categ2.setKey("categ2");
++        categ2.setTitle("Category 2");
++        categ2.setSummary("Description of category 2");
++
++        screen.addPreference(categ2);
++
++
++        CheckBoxPreference chb5 = new CheckBoxPreference(this);
++        chb5.setKey("chb5");
++        chb5.setTitle("CheckBox 5");
++        chb5.setSummary("Description of checkbox 5");
++
++        categ2.addPreference(chb5);
++
++
++        CheckBoxPreference chb6 = new CheckBoxPreference(this);
++        chb6.setKey("chb6");
++        chb6.setTitle("CheckBox 6");
++        chb6.setSummary("Description of checkbox 6");
++
++        categ2.addPreference(chb6);
++
++        rootScreen.addPreference(screen);
++
++        list.setDependency("chb1");
++        screen.setDependency("chb2");
++
++        // код из прошлого урока для связи активности categ2 и значения chb3
++        categ2.setEnabled(chb3.isChecked());
++        chb3.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
++            @Override
++            public boolean onPreferenceClick(Preference preference) {
++                categ2.setEnabled(chb3.isChecked());
++                return false;
++            }
++        });
++    }
++}
+Index: p0741_preferencescode/src/test/java/ru/startandroid/develop/p0741_preferencescode/ExampleUnitTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0741_preferencescode/src/test/java/ru/startandroid/develop/p0741_preferencescode/ExampleUnitTest.java b/p0741_preferencescode/src/test/java/ru/startandroid/develop/p0741_preferencescode/ExampleUnitTest.java
+new file mode 100644
+--- /dev/null	(date 1724620799013)
++++ b/p0741_preferencescode/src/test/java/ru/startandroid/develop/p0741_preferencescode/ExampleUnitTest.java	(date 1724620799013)
+@@ -0,0 +1,17 @@
++package ru.startandroid.develop.p0741_preferencescode;
++
++import org.junit.Test;
++
++import static org.junit.Assert.*;
++
++/**
++ * Example local unit test, which will execute on the development machine (host).
++ *
++ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
++ */
++public class ExampleUnitTest {
++    @Test
++    public void addition_isCorrect() {
++        assertEquals(4, 2 + 2);
++    }
++}
+\ No newline at end of file
+Index: p0751_files/src/test/java/ru/startandroid/develop/p0751_files/ExampleUnitTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/src/test/java/ru/startandroid/develop/p0751_files/ExampleUnitTest.java b/p0751_files/src/test/java/ru/startandroid/develop/p0751_files/ExampleUnitTest.java
+new file mode 100644
+--- /dev/null	(date 1724620799033)
++++ b/p0751_files/src/test/java/ru/startandroid/develop/p0751_files/ExampleUnitTest.java	(date 1724620799033)
+@@ -0,0 +1,17 @@
++package ru.startandroid.develop.p0751_files;
++
++import org.junit.Test;
++
++import static org.junit.Assert.*;
++
++/**
++ * Example local unit test, which will execute on the development machine (host).
++ *
++ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
++ */
++public class ExampleUnitTest {
++    @Test
++    public void addition_isCorrect() {
++        assertEquals(4, 2 + 2);
++    }
++}
+\ No newline at end of file
+Index: p0751_files/src/androidTest/java/ru/startandroid/develop/p0751_files/ExampleInstrumentedTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/src/androidTest/java/ru/startandroid/develop/p0751_files/ExampleInstrumentedTest.java b/p0751_files/src/androidTest/java/ru/startandroid/develop/p0751_files/ExampleInstrumentedTest.java
+new file mode 100644
+--- /dev/null	(date 1724620799017)
++++ b/p0751_files/src/androidTest/java/ru/startandroid/develop/p0751_files/ExampleInstrumentedTest.java	(date 1724620799017)
+@@ -0,0 +1,26 @@
++package ru.startandroid.develop.p0751_files;
++
++import android.content.Context;
++
++import androidx.test.platform.app.InstrumentationRegistry;
++import androidx.test.ext.junit.runners.AndroidJUnit4;
++
++import org.junit.Test;
++import org.junit.runner.RunWith;
++
++import static org.junit.Assert.*;
++
++/**
++ * Instrumented test, which will execute on an Android device.
++ *
++ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
++ */
++@RunWith(AndroidJUnit4.class)
++public class ExampleInstrumentedTest {
++    @Test
++    public void useAppContext() {
++        // Context of the app under test.
++        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
++        assertEquals("ru.startandroid.develop.p0751_files", appContext.getPackageName());
++    }
++}
+\ No newline at end of file
+Index: p0711_preferencessimple/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\">\r\n\r\n    <application\r\n        android:allowBackup=\"true\"\r\n        android:icon=\"@mipmap/ic_launcher\"\r\n        android:label=\"@string/app_name\"\r\n        android:roundIcon=\"@mipmap/ic_launcher_round\"\r\n        android:supportsRtl=\"true\"\r\n        android:theme=\"@style/Theme.AndroidLessens\">\r\n        <activity\r\n            android:name=\".MainActivity\"\r\n            android:exported=\"true\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\" />\r\n\r\n                <category android:name=\"android.intent.category.LAUNCHER\" />\r\n            </intent-filter>\r\n        </activity>\r\n        <activity android:name=\"ru.startandroid.develop.p0711_preferencessimple.PrefActivity\" />\r\n    </application>\r\n\r\n</manifest>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0711_preferencessimple/src/main/AndroidManifest.xml b/p0711_preferencessimple/src/main/AndroidManifest.xml
+--- a/p0711_preferencessimple/src/main/AndroidManifest.xml	(revision cc48c5ad3034c5a85dcd6f75db9cc7177fa6460b)
++++ b/p0711_preferencessimple/src/main/AndroidManifest.xml	(date 1724620798994)
+@@ -18,6 +18,7 @@
+             </intent-filter>
+         </activity>
+         <activity android:name="ru.startandroid.develop.p0711_preferencessimple.PrefActivity" />
++        <activity android:name="ru.startandroid.develop.p0711_preferencessimple.PrefActivity" />
+     </application>
+ 
+ </manifest>
+\ No newline at end of file
+Index: p0751_files/src/main/java/ru/startandroid/develop/p0751_files/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/p0751_files/src/main/java/ru/startandroid/develop/p0751_files/MainActivity.java b/p0751_files/src/main/java/ru/startandroid/develop/p0751_files/MainActivity.java
+new file mode 100644
+--- /dev/null	(date 1724620799020)
++++ b/p0751_files/src/main/java/ru/startandroid/develop/p0751_files/MainActivity.java	(date 1724620799020)
+@@ -0,0 +1,145 @@
++package ru.startandroid.develop.p0751_files;
++
++import android.os.Bundle;
++import android.os.Environment;
++import android.util.Log;
++import android.view.View;
++
++import androidx.activity.EdgeToEdge;
++import androidx.appcompat.app.AppCompatActivity;
++import androidx.core.graphics.Insets;
++import androidx.core.view.ViewCompat;
++import androidx.core.view.WindowInsetsCompat;
++
++import java.io.BufferedReader;
++import java.io.BufferedWriter;
++import java.io.File;
++import java.io.FileNotFoundException;
++import java.io.FileReader;
++import java.io.FileWriter;
++import java.io.IOException;
++import java.io.InputStreamReader;
++import java.io.OutputStreamWriter;
++import java.nio.Buffer;
++
++public class MainActivity extends AppCompatActivity {
++    final String LOG_TAG = "myLogs";
++
++    final String FILENAME = "file";
++
++    final String DIR_SD = "MyFiles";
++    final String FILENAME_SD = "fileSD";
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        EdgeToEdge.enable(this);
++        setContentView(R.layout.activity_main);
++    }
++    public void onclick(View v) {
++        switch (v.getId()) {
++            case R.id.btnWrite:
++                writeFile();
++                break;
++            case R.id.btnRead:
++                readFile();
++                break;
++            case R.id.btnWriteSD:
++                writeFileSD();
++                break;
++            case R.id.btnReadSD:
++                readFileSD();
++                break;
++        }
++    }
++
++    void writeFile() {
++        try {
++            // отрываем поток для записи
++            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(
++                    openFileOutput(FILENAME, MODE_PRIVATE)));
++            // пишем данные
++            bw.write("Содержимое файла");
++            // закрываем поток
++            bw.close();
++            Log.d(LOG_TAG, "Файл записан");
++        } catch (FileNotFoundException e) {
++            e.printStackTrace();
++        } catch (IOException e) {
++            e.printStackTrace();
++        }
++    }
++
++    void readFile() {
++        try {
++            // открываем поток для чтения
++            BufferedReader br = new BufferedReader(new InputStreamReader(
++                    openFileInput(FILENAME)));
++            String str = "";
++            // читаем содержимое
++            while ((str = br.readLine()) != null) {
++                Log.d(LOG_TAG, str);
++            }
++        } catch (FileNotFoundException e) {
++            e.printStackTrace();
++        } catch (IOException e) {
++            e.printStackTrace();
++        }
++    }
++
++    void writeFileSD() {
++        // проверяем доступность SD
++        if (!Environment.getExternalStorageState().equals(
++                Environment.MEDIA_MOUNTED)) {
++            Log.d(LOG_TAG, "SD-карта не доступна: " + Environment.getExternalStorageState());
++            return;
++        }
++        // получаем путь к SD
++        File sdPath = Environment.getExternalStorageDirectory();
++        // добавляем свой каталог к пути
++        sdPath = new File(sdPath.getAbsolutePath() + "/" + DIR_SD);
++        // создаем каталог
++        sdPath.mkdirs();
++        // формируем объект File, который содержит путь к файлу
++        File sdFile = new File(sdPath, FILENAME_SD);
++        try {
++            // открываем поток для записи
++            BufferedWriter bw = new BufferedWriter(new FileWriter(sdFile));
++            // пишем данные
++            bw.write("Содержимое файла на SD");
++            // закрываем поток
++            bw.close();
++            Log.d(LOG_TAG, "Файл записан на SD: " + sdFile.getAbsolutePath());
++        } catch (IOException e) {
++            e.printStackTrace();
++        }
++    }
++
++    void readFileSD() {
++        // проверяем доступность SD
++        if (!Environment.getExternalStorageState().equals(
++                Environment.MEDIA_MOUNTED)) {
++            Log.d(LOG_TAG, "SD-карта не доступна: " + Environment.getExternalStorageState());
++            return;
++        }
++        // получаем путь к SD
++        File sdPath = Environment.getExternalStorageDirectory();
++        // добавляем свой каталог к пути
++        sdPath = new File(sdPath.getAbsolutePath() + "/" + DIR_SD);
++        // формируем объект File, который содержит путь к файлу
++        File sdFile = new File(sdPath, FILENAME_SD);
++        try {
++            // открываем поток для чтения
++            BufferedReader br = new BufferedReader(new FileReader(sdFile));
++            String str = "";
++            // читаем содержимое
++            while ((str = br.readLine()) != null) {
++                Log.d(LOG_TAG, str);
++            }
++        } catch (FileNotFoundException e) {
++            e.printStackTrace();
++        } catch (IOException e) {
++            e.printStackTrace();
++        }
++    }
++    }
