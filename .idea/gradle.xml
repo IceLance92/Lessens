@@ -59,6 +59,7 @@
             <option value="$PROJECT_DIR$/p0761_files" />
             <option value="$PROJECT_DIR$/p0801_handler" />
             <option value="$PROJECT_DIR$/p0811_handlersimplemessage" />
+            <option value="$PROJECT_DIR$/p0821_handleradvmessage" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
