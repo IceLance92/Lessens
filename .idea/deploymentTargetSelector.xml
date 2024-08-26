@@ -155,6 +155,9 @@
       <SelectionState runConfigName="p0821_handleradvmessage">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="p0831_handlermessagemanage">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
