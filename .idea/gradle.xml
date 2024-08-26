@@ -61,6 +61,7 @@
             <option value="$PROJECT_DIR$/p0811_handlersimplemessage" />
             <option value="$PROJECT_DIR$/p0821_handleradvmessage" />
             <option value="$PROJECT_DIR$/p0831_handlermessagemanage" />
+            <option value="$PROJECT_DIR$/p0841_handlerrunnable" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
