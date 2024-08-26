@@ -17,8 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="ru.startandroid.develop.p0711_preferencessimple.PrefActivity" />
-        <activity android:name="ru.startandroid.develop.p0711_preferencessimple.PrefActivity" />
     </application>
 
 </manifest>
