@@ -164,6 +164,9 @@
       <SelectionState runConfigName="p0851_runnableuithread">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="p0921_servicesimple">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
