@@ -188,6 +188,9 @@
       <SelectionState runConfigName="p0972_servicebindserver">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="p0981_servicebindinglocal">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>

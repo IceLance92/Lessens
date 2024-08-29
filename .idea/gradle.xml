@@ -71,6 +71,7 @@
             <option value="$PROJECT_DIR$/p0961_servicebackbroadcast" />
             <option value="$PROJECT_DIR$/p0971_servicebindclient" />
             <option value="$PROJECT_DIR$/p0972_servicebindserver" />
+            <option value="$PROJECT_DIR$/p0981_servicebindinglocal" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
