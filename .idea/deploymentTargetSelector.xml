@@ -194,6 +194,9 @@
       <SelectionState runConfigName="p0991_servicenotification">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="p0992_servicenotification">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
