@@ -197,6 +197,9 @@
       <SelectionState runConfigName="p0992_servicenotification">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="p1041_fragmentlifecycle">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>

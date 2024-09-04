@@ -74,6 +74,7 @@
             <option value="$PROJECT_DIR$/p0981_servicebindinglocal" />
             <option value="$PROJECT_DIR$/p0991_servicenotification" />
             <option value="$PROJECT_DIR$/p0992_servicenotification" />
+            <option value="$PROJECT_DIR$/p1041_fragmentlifecycle" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
