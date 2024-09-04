@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.practicum.p1041_fragmentlifecycle"
+    namespace = "com.practicum.p1051_fragmentdynamic"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.practicum.p1041_fragmentlifecycle"
-        minSdk = 16
+        applicationId = "com.practicum.p1051_fragmentdynamic"
+        minSdk = 21
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
