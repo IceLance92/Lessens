@@ -203,6 +203,9 @@
       <SelectionState runConfigName="p0631_alertdialogitemssingle">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="p1061_fragmentactivity">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>

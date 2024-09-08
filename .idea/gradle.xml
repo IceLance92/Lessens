@@ -76,6 +76,7 @@
             <option value="$PROJECT_DIR$/p0992_servicenotification" />
             <option value="$PROJECT_DIR$/p1041_fragmentlifecycle" />
             <option value="$PROJECT_DIR$/p1051_fragmentdynamic" />
+            <option value="$PROJECT_DIR$/p1061_fragmentactivity" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
