@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/message_btn"
+        android:title="Messages"
+        android:icon="@drawable/baseline_message_24"/>
+
+    <item android:id="@+id/maps_btn"
+        android:title="Maps"
+        android:icon="@drawable/baseline_map_24"/>
+
+</menu>
