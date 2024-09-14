@@ -81,6 +81,7 @@
             <option value="$PROJECT_DIR$/p1081_actionbarnavigation" />
             <option value="$PROJECT_DIR$/p1082_toolbar" />
             <option value="$PROJECT_DIR$/p1091_listfragment" />
+            <option value="$PROJECT_DIR$/p1101_dialogfragment" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DialogFragment</string>
+
+    <string name="dialog_1">Dialog 1</string>
+    <string name="dialog_2">Dialog 2</string>
+    <string name="message_text">Текст для твоего сообщения</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="maybe">Возможно</string>
+</resources>
