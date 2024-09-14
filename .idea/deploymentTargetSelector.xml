@@ -200,6 +200,9 @@
       <SelectionState runConfigName="p1101_dialogfragment">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="p1111_preferencefragment">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
