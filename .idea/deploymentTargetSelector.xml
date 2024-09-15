@@ -203,6 +203,9 @@
       <SelectionState runConfigName="p1111_preferencefragment">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="p1121_dynamicactionbar">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>

@@ -83,6 +83,7 @@
             <option value="$PROJECT_DIR$/p1091_listfragment" />
             <option value="$PROJECT_DIR$/p1101_dialogfragment" />
             <option value="$PROJECT_DIR$/p1111_preferencefragment" />
+            <option value="$PROJECT_DIR$/p1121_dynamicactionbar" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
