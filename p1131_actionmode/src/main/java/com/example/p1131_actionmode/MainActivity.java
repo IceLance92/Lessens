@@ -9,9 +9,7 @@ import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
 
 public class MainActivity extends AppCompatActivity {
     
@@ -35,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         else actionMode.finish();
     }
     
-    private ActionMode.Callback callback = new ActionMode.Callback() {
+    private final ActionMode.Callback callback = new ActionMode.Callback() {
         @Override
         public boolean onCreateActionMode(ActionMode actionMode, Menu menu) {
             actionMode.getMenuInflater().inflate(R.menu.context, menu);
