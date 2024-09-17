@@ -28,13 +28,13 @@ public class MainActivity extends AppCompatActivity {
         am = (ActivityManager) getSystemService(ACTIVITY_SERVICE);
     }
     public void onClick(View v) {
-        startActivity(new Intent("mngtasks1_activity_c"));
+        startActivity(new Intent("mngtasks1_activity_c").addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
     }
 
     public void onInfoClick(View v) {
         list = am.getRunningTasks(10);
         for (ActivityManager.RunningTaskInfo task : list) {
-            if (task.baseActivity.flattenToShortString().startsWith("ru.startandroid.develop.p116")) {
+            if (task.baseActivity.flattenToShortString().startsWith("com.example.p1162_mngtasks2")) {
                 Log.d(LOG_TAG, "------------------");
                 Log.d(LOG_TAG, "Count: " + task.numActivities);
                 Log.d(LOG_TAG, "Root: " + task.baseActivity.flattenToShortString());

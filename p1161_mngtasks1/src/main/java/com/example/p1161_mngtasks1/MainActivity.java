@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     public void onInfoClick(View view) {
         list = am.getRunningTasks(10);
         for (ActivityManager.RunningTaskInfo task : list) {
-            if (task.baseActivity.flattenToShortString().startsWith("ru.startandroid.develop.p116")) {
+            if (task.baseActivity.flattenToShortString().startsWith("com.example.p1161_mngtasks1")) {
                 Log.d(LOG_TAG, "-------------");
                 Log.d(LOG_TAG, "Count: " + task.numActivities);
                 Log.d(LOG_TAG, "Root: " + task.baseActivity.flattenToShortString());
